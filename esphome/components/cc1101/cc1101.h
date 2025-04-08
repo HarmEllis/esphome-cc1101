@@ -6,16 +6,6 @@
 // Libraries for CC1101 module
 #include <ELECHOUSE_CC1101_SRC_DRV.h>
 
-// #define EMITTER_GPIO 2
-
-// // Set custom spi pins (byte sck, byte miso, byte mosi, byte ss)
-// #define SCK_PIN 14
-// #define MISO_PIN 39
-// #define MOSI_PIN 12
-// #define SS_PIN 15
-
-// #define CC1101_FREQUENCY 433.42
-
 namespace esphome {
 namespace cc1101 {
 
