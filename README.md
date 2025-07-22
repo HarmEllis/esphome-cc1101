@@ -52,3 +52,12 @@ cc1101:
   cc1101_emitter_pin: 2
 
 ```
+
+## Changes to SmartRC-CC1101-Driver-Lib
+The changes are all related to a change in ESP32 Arduino Framework 3.x, to which ESPHome switched from 2.x in version 2025.7.
+In this version you are not allowed to use `digitalRead()` or `digitalWrite()` on pins that are claimed for SPI and pins that you did not set the mode for explicitly with the `pinMode()` function.
+
+## Acknowledgements
+This project is based on the [SmartRC-CC1101-Driver-Lib](https://github.com/LSatan/SmartRC-CC1101-Driver-Lib) by LSatan, which itself includes code from the ELECHOUSE CC1101 library by Michael (2010). Permission to modify and distribute was granted by Wilson Shen (ELECHOUSE).
+
+All modifications in this repository are made by Harm Ellis, and are provided under the MIT License. See the LICENSE file for details.

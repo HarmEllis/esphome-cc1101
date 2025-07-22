@@ -4,7 +4,7 @@
 #include "esphome/core/gpio.h"
 
 // Libraries for CC1101 module
-#include <ELECHOUSE_CC1101_SRC_DRV.h>
+#include "ELECHOUSE_CC1101_SRC_DRV.h"
 
 namespace esphome {
 namespace cc1101 {

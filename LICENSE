@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+Portions of this code are based on:
+- "SmartRC-CC1101-Driver-Lib" by LSatan (2018–2020)
+- "ELECHOUSE CC1101 Library" by Michael (2010), with permission from Wilson Shen (ELECHOUSE)
+
+These components were originally released with permission to modify and distribute. All modifications and additions by Harm Ellis are licensed under the MIT License.
